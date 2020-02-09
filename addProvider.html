@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Add Provider</title>
+</head>
+<body>
+    <center class="addClientform">
+        <a class="delete" href='providerDB.php'>Return to DB</a>
+    <h1>Add New Provider</h1>
+    <form action="addProvider.php" method="POST">
+        <input autocomplete="off" required type="text" placeholder="NIF" name="nif" size="35">
+        <br>
+        <input autocomplete="off" required type="text" placeholder="NAME" name="nombre" size="35">
+        <br>
+        <input autocomplete="off" required type="text" placeholder="ADDRESS" name="direccion" size="35">
+        <br>
+        <input class="submit" type="submit" name="submit" value= "Register">
+
+    </form>
+</center>
+</body>
+</html>

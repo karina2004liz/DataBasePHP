@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+.start{
+    background-image: url("https://www.sidero.ie/images/sidero_analytics_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+svg {
+    display: block;
+    font: 10em 'Righteous', cursive;
+    width: 650px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+.login{
+    color:#EFF8E2 ;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:5%;
+    padding-bottom:5% ;
+    width: 60%;
+    border-radius: 2rem;
+}
+
+
+
+#btnLogin{
+
+    box-shadow: 0px 13px 17px -10px #ffffff;
+	background-color:rgb(0, 0, 0);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    border:transparent;
+    margin:2%;
+
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: rgb(28, 223, 230);
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(2){
+	stroke:rgb(255, 255, 255)    ;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke:rgb(65, 92, 243);
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke:rgb(131, 241, 245);
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke:rgba(252, 245, 245, 0.76);
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+
+
+.edit{
+    background-color:#016FB9;
+	border-radius:6px;	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 9px;
+	text-decoration:none;
+	
+}
+
+
+.edit:hover {
+	
+    background-color:rgb(0, 82, 136);
+
+}
+
+
+
+
+
+.delete{
+
+	
+	background-color:#910000d7;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+
+}
+
+.delete:hover {
+	
+	background-color:#5f0000b2;
+}
+.delete:active {
+	position:relative;
+	top:1px;
+}
+
+.other{
+
+    box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#448FA3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+
+}
+
+.submit{
+    background-color: #192D3E;
+    border-style: none;
+    border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-top: 1rem;
+}
+
+.result{
+    background-color: #192D3E;
+    border-style: none;
+    border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-top: 1rem;
+}
+
+th{
+    padding:15px;
+    color:#fff;
+   /* background:linear-gradient(to bottom, #25adde 5%, #49c3d6 100%);*/
+    background-color:#030A16;
+    font-size: 1rem;
+    border-radius:3px;
+
+    
+}
+
+td{
+    padding:5px;
+    text-align:center;
+    background-color: #003253;
+    border-color:#68C5DB;
+    border-style: solid;
+    border-width: thin;
+    border-radius:3px;
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+table{
+    width: 100%;
+}
+
+
+body{
+    /*
+    background-image: url("https://images.idgesg.net/images/article/2018/10/analytics_binary_code_network_digital-transformation-100777428-large.jpg");
+*/
+
+    background-image: url("https://www.itm.co.uk/uploads/2019/10/itm%E2%80%93unveils%E2%80%93forum%E2%80%93to%E2%80%93help%E2%80%93schemes%E2%80%93evaluate%E2%80%93and%E2%80%93prepare%E2%80%93for%E2%80%93pension%E2%80%93dashboards.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #EFF8E2;
+}
+
+.addClientform{
+    color:#EFF8E2 ;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:5%;
+    padding:5% ;
+    width: 40%;
+    border-radius: 2rem;
+    
+}
+
+.chooseDB{
+    color:#EFF8E2 ;
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:5%;
+    padding:5% ;
+    width: 40%;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#containerdbclient{
+
+    padding: 5%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin-top: 5%;
+
+}
+
+#returnDBs{
+    text-align: right;
+}
